@@ -1,3 +1,89 @@
+##LG_Prime Biography – Patrick Genovese
+I created a bot that will help Lisa Gilligan not only increase the amount of potential clients, 
+but also help those potential clients to be informed. The bot will walk clients through a complex form
+that normally Lisa GIlligan would do herself and educate them along the way. This way, the potential 
+clients will be able to move through Lisa Gilligan's intake process faster, and save her from filling out, what she 
+calls "that damn form." LG_Prime can be found at: *******insert link
+
+##Framing
+Lisa Gilligan runs her own solo practice out of Reading Massachusetts. She has a husband, two children, and two brand new
+grandchildren. Between work and her growing family, Lisa needs to utilize every minute she has. When we first spoke about potential
+projects, I asked her, "What is something you do all the time, that you wish you never had to do again?" she told me "This damn form!" 
+She showed me a seven page packet that she has to go through with each of her clients seeking estate planning advice. This process on 
+average took roughly thirty minutes or more, due to all of the complex legalese within the form, that the clients didnt understand. 
+I created a recource  that would walk clients through this form, educate them on legal issues and then if they wanted, direct them
+to Lisa Gilligan's office. This would give her more clients who were educated and ready to begin, and more time to focus on more cases. 
+
+##Research
+First I had Lisa Gilligan go through the form with me the way that she would with a client. This way I was able to see how she would 
+explain certain concepts, which parts of the form she would emphasize, and how long it would take. Next I looked to see if there
+was already a bot out there that could go through this form. The closest thing I found to a solution was clicking through mass.gov
+and consulting an attorney or clerk. Next, I looked up all of the mpc forms that this form referenced and gained an understanding of what 
+they each required. Finally I looked up the legal language definitions and put them into lay people terms.
+
+##Ideation & Prototyping
+Considering all of the potential toos for this solution, I narrowed my selection down to Community Lawyer and QnA Markup. Community 
+Lawyer has better accessibility, but I was more familiar with QnA and how to insert javascript and export information. Plus, I felt less
+restricted using the QnA tools. I chose QnA because I believed more in my ability with this tool to create a better product.
+
+User Testing
+Aside from myself and what I thought would be useful I also received feedback from my three
+supervisors. I met with all three of them separately and at different stages. I initially spoke
+about the project with Josh, he was excited about the idea and provided some input. From his
+feedback I decided to add important contacts to the QnA. I spoke with Dean McLaurin and she
+loved the idea, especially after seeing all that QnA could do so easily. She gave me some
+documents that might be useful to have in the QnA. Finally, I was able to speak to Vanessa who
+also loved the idea and want to continue working and improving it this upcoming semester. She
+also sent me some written feedback which is titled ‘ProjectFeedbackVanessa’ which can be
+found at https://jpromes.github.io/ctl_final/ProjectFeedbackVanessa.docx and it was sent to
+you via email on 12/15/18.
+
+Refinement
+I tried to integrate all the feedback into the final version of the project. From the feedback I
+reorganized the categories a few times, each time making it flow a bit better. However, for the
+purposes of the clinic, this will likely not be the final version since the plan is to work with it
+with my peers and keep refining it as we all take note of what works or what else might be
+useful to have. I uploaded some of the versions of my QnA in the .txt version, the final one
+being version 4. The final product in .html is simply named jdchelper. I only kept one html
+version in order to make the same link provided to my supervisors available.
+
+Intro Pitch
+The PowerPoint used for my intro pitch can be found at
+https://jpromes.github.io/ctl_final/ProjectPitch.pptx
+
+Complexity/Robustness
+My initial plan to use document automation for some of the documents in my QnA. However,
+after speaking with my supervisors we ultimately decided that it would be easier if it were not
+used. All these forms, aside from the opening and closing, are filled out in court. It would not
+make much sense to have automated documents in this tool.
+
+Impact & Efficiencies
+This QnA has the potential to increase efficiency in the clinic. Students spend time searching in
+different locations for all this information, and this tool has everything in one place. This will
+also allow supervisors to spend more time answering case related questions as opposed to a
+step by step on what happens on duty day, at least the first few weeks. I believe that, although
+specific to the juvenile defenders clinic, this is a tool can be adopted by others and easily
+changed to fit their needs.
+
+Fit/Completeness
+This QnA address the main problems I wanted to address. It answers the questions and
+provides the documents and information I would have loved to have day one in the clinic. As
+mentioned earlier, I will be working with Vanessa over the course of next semester to fine tune
+it even more since the plan is for it to be used by future JDC students.
+
+Documentation
+The QnA is pretty straight forward and all the necessary documents are in my project page. All
+the information used is easily accessible to any JDC student were they not able to get it through
+my QnA.
+
+Real World Viability
+The QnA is ready to use now. However, as I pointed out earlier, I will be refining it more next
+semester once my peers get to use it and provide me with more feedback.
+
+Sustainability
+Right now, I will be continuing to work on this in the up coming semester. Once there is a
+version everyone in the clinic has had a chance to provide input, I plan on making a quick
+tutorial in the case someone in the future would want to make changes. 
 Brainstorm potential partners:
   1. Mr. Crowely
   2. Mrs. Gilligan
