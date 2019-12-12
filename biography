@@ -27,91 +27,33 @@ Lawyer has better accessibility, but I was more familiar with QnA and how to ins
 restricted using the QnA tools. I chose QnA because I believed more in my ability with this tool to create a better product.
 
 User Testing
-Aside from myself and what I thought would be useful I also received feedback from my three
-supervisors. I met with all three of them separately and at different stages. I initially spoke
-about the project with Josh, he was excited about the idea and provided some input. From his
-feedback I decided to add important contacts to the QnA. I spoke with Dean McLaurin and she
-loved the idea, especially after seeing all that QnA could do so easily. She gave me some
-documents that might be useful to have in the QnA. Finally, I was able to speak to Vanessa who
-also loved the idea and want to continue working and improving it this upcoming semester. She
-also sent me some written feedback which is titled ‘ProjectFeedbackVanessa’ which can be
-found at https://jpromes.github.io/ctl_final/ProjectFeedbackVanessa.docx and it was sent to
-you via email on 12/15/18.
+
 
 Refinement
-I tried to integrate all the feedback into the final version of the project. From the feedback I
-reorganized the categories a few times, each time making it flow a bit better. However, for the
-purposes of the clinic, this will likely not be the final version since the plan is to work with it
-with my peers and keep refining it as we all take note of what works or what else might be
-useful to have. I uploaded some of the versions of my QnA in the .txt version, the final one
-being version 4. The final product in .html is simply named jdchelper. I only kept one html
-version in order to make the same link provided to my supervisors available.
 
-Intro Pitch
+
+##Intro Pitch
 The PowerPoint used for my intro pitch can be found at
-https://jpromes.github.io/ctl_final/ProjectPitch.pptx
+https://pgenovese95.github.io/ctl_final/ProjectPitch.pptx
 
 Complexity/Robustness
-My initial plan to use document automation for some of the documents in my QnA. However,
-after speaking with my supervisors we ultimately decided that it would be easier if it were not
-used. All these forms, aside from the opening and closing, are filled out in court. It would not
-make much sense to have automated documents in this tool.
+
 
 Impact & Efficiencies
-This QnA has the potential to increase efficiency in the clinic. Students spend time searching in
-different locations for all this information, and this tool has everything in one place. This will
-also allow supervisors to spend more time answering case related questions as opposed to a
-step by step on what happens on duty day, at least the first few weeks. I believe that, although
-specific to the juvenile defenders clinic, this is a tool can be adopted by others and easily
-changed to fit their needs.
+
 
 Fit/Completeness
-This QnA address the main problems I wanted to address. It answers the questions and
-provides the documents and information I would have loved to have day one in the clinic. As
-mentioned earlier, I will be working with Vanessa over the course of next semester to fine tune
-it even more since the plan is for it to be used by future JDC students.
+
 
 Documentation
-The QnA is pretty straight forward and all the necessary documents are in my project page. All
-the information used is easily accessible to any JDC student were they not able to get it through
-my QnA.
+
 
 Real World Viability
-The QnA is ready to use now. However, as I pointed out earlier, I will be refining it more next
-semester once my peers get to use it and provide me with more feedback.
+
 
 Sustainability
-Right now, I will be continuing to work on this in the up coming semester. Once there is a
-version everyone in the clinic has had a chance to provide input, I plan on making a quick
-tutorial in the case someone in the future would want to make changes. 
-Brainstorm potential partners:
-  1. Mr. Crowely
-  2. Mrs. Gilligan
-  3. Liberty Mutual
-  4. Judge Patten
-  5. Comunity Lawyer
-Choose:
-  Mrs. Gilligan
-Why:
-  Mr. Gilligan has the least support within her practice among the potential partners. she is in an interesting field I know little about. She is easily accessible given our informal and friendy rapport.
 
-Meetings will Partner: 
-I initial meeting via text
-    I explained the project, what i have orked on in the past, asked her to take some time and think about the work she is doing this week and we can talk again over the weekend 
-   
-Second meeting
-      Mrs. Gilligan spoke about her solo practice having to be in court, communicate with clients, juggle her new baby grandkids and her mundane office work
-                I Hone in on the mundane work
-      The most boring piece of work that takes the most time is the questionaire to determine whether the client can use a formal or informal petition to request an appointed representative
-      It can be flowcharted easily. the terms used are too complex for a layperson. Mrs. Gilligan hates it 
-                  We found a winner. 
-WORK Product                  
- - Begin an initial flowchart. notice a lot of switching between possitive and negative questions. will have to sort and reorganize/ reformat questions
- - Look for open sources to use as explanations for certain terms
- - Begin an initial QnA mark up
- - Finalize presentation for Intro Pitch: https://github.com/pgenovese95/ctl_final/blob/master/Solo%20Practitioner%2C%20You%20are%20not%20alone.pptx
- 
- 
+  
 
  
  
