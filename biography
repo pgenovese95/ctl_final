@@ -26,10 +26,23 @@ Considering all of the potential toos for this solution, I narrowed my selection
 Lawyer has better accessibility, but I was more familiar with QnA and how to insert javascript and export information. Plus, I felt less
 restricted using the QnA tools. I chose QnA because I believed more in my ability with this tool to create a better product.
 
-User Testing
+##User Testing
+After I had finished creating what I thought would be extremely helpful code, I put the product in the hands of a tester named Vasiliki.
+She is a Reasearch Coordinator at Mass General Hospital and works with pateints who have downs sydrome. She has no legal experience and
+had no idea what my vision was for the bot. After 5 minutes i had a handful of notes to improve the bot. Most of the notes included 
+adding more descriptions and definitions. After implementing those changes, I had my roommate Liam test the bot. He is an Associate 
+Producer and works mostly in television or commercials. He has a father who is an Eldr Law Attorney, but has no legal experience himself. 
+Again, he did not know my vision for the bot. Liam sugested that it would be helpful to get an option to consult an attorney at multiple 
+stages of LG_Prime. He also suggested that it would be easier for the user to click on the items in the checklist and have the document 
+popup rather than have it lead you to a follow up question asking if they wanted the link. 
 
 
 Refinement
+Each time the bot was tested I had the users fill out a standard form I created. It can be found at: *****insert link****. I would 
+review the form soon after it was done and clarify certain questions they had or suggestions they offered. Then I would implement 
+the changes they suggested thatalso would help reach the goal. I started with a simple bot. Then I added javascript and additional 
+resources. Finally I created a function that would allow the user to get documentation of the important information LG_Prime gathered.
+After three rounds of user testing and ******* mark up file variations, LG_Prime is ready for the client, Lisa Gilligan.
 
 
 ##Intro Pitch
