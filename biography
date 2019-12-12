@@ -22,9 +22,10 @@ and consulting an attorney or clerk. Next, I looked up all of the mpc forms that
 they each required. Finally I looked up the legal language definitions and put them into lay people terms.
 
 ##Ideation & Prototyping
-Considering all of the potential toos for this solution, I narrowed my selection down to Community Lawyer and QnA Markup. Community 
-Lawyer has better accessibility, but I was more familiar with QnA and how to insert javascript and export information. Plus, I felt less
-restricted using the QnA tools. I chose QnA because I believed more in my ability with this tool to create a better product.
+Considering all of the potential tools for this solution, I narrowed my selection down to Community Lawyer and QnA Markup. Community 
+Lawyer has better accessibility, but I was more familiar with QnA and how to insert javascript functions. Plus, I felt less
+restricted using the QnA tools. I chose QnA because I believed more in my ability to create a better product with this tool. My very 
+simple QnA prototype was a good frame that could fit any refinements I would need after user testing.
 
 ##User Testing
 After I had finished creating what I thought would be extremely helpful code, I put the product in the hands of a tester named Vasiliki.
@@ -34,10 +35,12 @@ adding more descriptions and definitions. After implementing those changes, I ha
 Producer and works mostly in television or commercials. He has a father who is an Eldr Law Attorney, but has no legal experience himself. 
 Again, he did not know my vision for the bot. Liam sugested that it would be helpful to get an option to consult an attorney at multiple 
 stages of LG_Prime. He also suggested that it would be easier for the user to click on the items in the checklist and have the document 
-popup rather than have it lead you to a follow up question asking if they wanted the link. 
+popup rather than have it lead you to a follow up question asking if they wanted the link. The third user tester was none other than Lisa
+Gilligan's son, Larry. Larry is a Liquor Merchandizer. Like the previous testers, he has no legal expierence. Unlike the previous two, 
+Larry did have a rough understanding of what my goal was for the bot. Larry was able to give valuable feedback about 
 
 
-Refinement
+###Refinement
 Each time the bot was tested I had the users fill out a standard form I created. It can be found at: *****insert link****. I would 
 review the form soon after it was done and clarify certain questions they had or suggestions they offered. Then I would implement 
 the changes they suggested thatalso would help reach the goal. I started with a simple bot. Then I added javascript and additional 
@@ -47,25 +50,40 @@ After three rounds of user testing and ******* mark up file variations, LG_Prime
 
 ##Intro Pitch
 The PowerPoint used for my intro pitch can be found at
-https://github.com/pgenovese95/ctl_final/blob/master/Solo%20Practitioner%2C%20You%20are%20not%20alone.pptx
+**********
 
-Complexity/Robustness
+##Complexity/Robustness
+This an extremely robust QnA, which has multiple choice, fill in the balnks, reference call backs, embedded links, 
+javascript features including document creation and more.
 
-
-Impact & Efficiencies
-
-
-Fit/Completeness
-
-
-Documentation
-
-
-Real World Viability
+##Impact & Efficiencies
+Because this product was only recently released, it is impossible to tell right now how effective it will truly be. However by
+comparing the old process to using LG_Prime, Lisa Gilligan will now save approximately 25 minutes with each client that uses LG_Prime
+and she will never have to fill out "that damn form" again if she doesnt want to. Save her time means she can either take on more clients,
+focus on more complex issues, or simply spend more time with her family and get a chance to breathe! A laywer's happiness is important 
+too. 
 
 
-Sustainability
+##Fit/Completeness
+This bot set out to enable Lisa Gilligan to have more time in her day. For that to happen the bot would have to be prototyped, tested,
+and refined many times (*****) in order to be a relaible tool. As it stands now, it cuts down on client intake by roughtly 25 
+minutes per client. The bot has been scrubbed of confusing legalese and clear definitions have been implemented into the smooth flow
+of use. This bot has accomplished the goals of my client.
 
+
+##Documentation
+I have addressed all of the user concerns from the user testing. I have cut down on all unecessary legalese. The bot flows beautifully. 
+Client users will be able to understand what they are being asked and also become comfortable with this portion of the estate planning
+process. My partner would easily be able to dive in and change language once getting additional feedback if necessary and also recieve 
+LG_Prime-gathered information in a digestable way to help her implement the information seemlessly into her representation.
+
+##Real World Viability
+This QnA is ready for the real world as-is. Lisa Gilligan and her potential clients could use this bot tomorrow.
+
+##Sustainability
+This bot will be only as good as its latest update. Unfortunately, Probate laws, procedures, and forms are subject to change. Luckily,
+the QnA is flexible and implementing new forms or new rules will be simple so long as the person implementing the change is familiar
+with QnA.
   
 
  
