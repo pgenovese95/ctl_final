@@ -24,8 +24,9 @@ they each required. Finally I looked up the legal language definitions and put t
 ##Ideation & Prototyping
 Considering all of the potential tools for this solution, I narrowed my selection down to Community Lawyer and QnA Markup. Community 
 Lawyer has better accessibility, but I was more familiar with QnA and how to insert javascript functions. Plus, I felt less
-restricted using the QnA tools. I chose QnA because I believed more in my ability to create a better product with this tool. My very 
-simple QnA prototype was a good frame that could fit any refinements I would need after user testing.
+restricted using the QnA tools. I chose QnA because I believed more in my ability to create a better product with this tool. After 
+identifying the proper negative and possitive flows for the questions I would use, I created my very simple QnA prototype, which was a 
+good jumping off point for any refinements identified after user testing.
 
 ##User Testing
 After I had finished creating what I thought would be extremely helpful code, I put the product in the hands of a tester named Vasiliki.
@@ -33,11 +34,11 @@ She is a Reasearch Coordinator at Mass General Hospital and works with pateints 
 had no idea what my vision was for the bot. After 5 minutes i had a handful of notes to improve the bot. Most of the notes included 
 adding more descriptions and definitions. After implementing those changes, I had my roommate Liam test the bot. He is an Associate 
 Producer and works mostly in television or commercials. He has a father who is an Eldr Law Attorney, but has no legal experience himself. 
-Again, he did not know my vision for the bot. Liam sugested that it would be helpful to get an option to consult an attorney at multiple 
-stages of LG_Prime. He also suggested that it would be easier for the user to click on the items in the checklist and have the document 
-popup rather than have it lead you to a follow up question asking if they wanted the link. The third user tester was none other than Lisa
-Gilligan's son, Larry. Larry is a Liquor Merchandizer. Like the previous testers, he has no legal expierence. Unlike the previous two, 
-Larry did have a rough understanding of what my goal was for the bot. Larry was able to give valuable feedback about 
+Again, he did not know my vision for the bot. Liam sugested that it would be easier for the user to click on the items in the checklist 
+and have the document popup rather than have it lead you to a follow up question asking if they wanted the link. The third user tester 
+was none other than Lisa Gilligan's son, Larry. Larry is a Liquor Merchandiser. Like the previous testers, he has no legal expierence. 
+Unlike the previous two, Larry did have a rough understanding of what my goal was for the bot. Larry was able to give a valusable 
+suggestion; the user should have an option to consult an attorney at multiple stages of LG_Prime.
 
 
 ###Refinement
