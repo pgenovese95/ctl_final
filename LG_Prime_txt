@@ -1,0 +1,271 @@
+Before: <input type="hidden" name="name" value="final_doc"/>
+<input type="hidden" name="docx_uri" value="https://pgenovese95.github.io/ctl_final/final_doc.docx"/>
+Title:LG Prime
+Author:Patrick Genovese
+Description:This is a class project. You should not rely on it as a source of legal information. It is likely incomplete.
+
+Q(1): Hello! I am LG_Prime. I will help you determine whether or not you can file an informal petition to appoint a personal representative for the decedent's estate.
+A: I am ready.
+	Q(1.1):GOTO:deadname 
+A: What is a personal representative?
+	Q(1.2): A personal representative is a person who is at least 18 years old who has been appointed to administer the estate of the decedent.
+	A:Okay. I am ready.
+		Q(1.2.1):GOTO:deadname
+	A: I still dont understand.
+		Q(1.2.2): Please consult an attorney.
+		A[https://www.gilliganlawoffice.com/contact.html]:Okay.
+		A: Not yet. Please take me back to the main menu.
+			Q(1.2.2.2):GOTO:1
+	A: Please take me back to the main menu.
+		Q(1.2.3):GOTO:1
+A: What is a decedent?
+	Q(1.3): A decedent is the person who died
+	A: Okay I am ready.
+		Q(1.3.1):GOTO:deadname
+	A: Please take me back to the main menu.
+		Q(1.3.2):GOTO:1
+Q(deadname): What is the full name of the decedent?
+X:
+	Q(2.1):GOTO:3
+
+Q(3): Did <x>deadname</x> die with a will?
+A(They died with a will): Yes
+	Q(3.1):GOTO:4
+A(They did not die with a will): No
+	Q(3.2):GOTO:granted
+
+Q(4): Has <x>deadname</x>'s original will been lost, destroyed, or otherwise unavailable?
+A(The original will is unavailable):Yes
+	Q(4.1):GOTO:notgranted
+A(The original will is available):No
+	Q(4.2):GOTO:5
+
+Q(5):Is there an official death certificate for <x>deadname</x>?
+A(There is an official death certificate):Yes
+	Q(5.1):GOTO:6
+A(There is not a death certificate):No
+	Q(5.2):GOTO:notgranted
+
+Q(6): Do you know what a devisee is?
+A:Yes
+	Q(6.1):GOTO:7
+A:No
+	Q(6.2): A devisee is the person, charity, or entity in a will who will receive <x>2</x>'s personal property or land. If a trust is named as the thing receiving <x>2</x>'s personal property or land, the trustee of the trust will be the devisee.
+	A: I understand
+		Q(6.2.1):GOTO:7
+	A: I still do not understand
+		Q(6.2.2): Please consult an attorney.
+		A: Okay. goodbye 
+		A: Lets start over
+			Q(6.2.2.2):GOTO:1
+
+Q(7):Is the identity of the devisee known?
+A(The identity of the devisee is known):Yes
+	Q(7.1):GOTO:8
+A(The identity of the devisee is not known):No
+	Q(7.2):GOTO:notgranted
+Q(8):Is the location of the devisee known?
+A(The location of the devisee is known):Yes
+	Q(8.1):GOTO:9
+A(The location of the devisee is not known):No
+	Q(8.2):GOTO:notgranted
+
+Q(9):Does the person you wish to be appointed have priority of appointment by law or by renunciation and/or nomination?
+A(The person being appointed has priority): Yes
+	Q(9.1):GOTO:10
+A(The person being appointed does not have priority): No
+	Q(9.2):GOTO:notgranted
+A: What is "priority of appointment"?
+	Q(9.3): This question is asking if there is a law telling you that a certain person has priority over another to be given this position.
+	A: I understand
+		Q(9.3.1):GOTO:9
+	A[https://www.gilliganlawoffice.com/contact.html]: I would like to consult an attorney.
+A: What is "renunciation"?
+	Q(9.4):Renunciation is when someone is given this power and rejects it.
+	A: I understand
+		Q(9.4.1):GOTO:9
+	A[https://www.gilliganlawoffice.com/contact.html]: I would like to consult an attorney
+A: What is "nomination"?
+	Q(9.5): Nomination is when the decedent gives someone the power in the will.
+	A: I understand
+		Q(9.5.1):GOTO:9
+	A[https://www.gilliganlawoffice.com/contact.html]: I would like to consult an attorney
+	
+
+Q(10): Is the person receiving the property in the will incapacitated, a protected person, or a minor?
+A(An heir or devisee is incapacitated, a protected person, or a minor): Yes
+	Q(10.1): Are they represented by a conservator?
+	A(They are represented by a conservator): Yes
+		Q(10.1.1):GOTO:11
+	A(They are not represented by a conservator): No
+		Q(10.1.2): Are they represented by a guardian?
+		A(They are represented by a guardian): Yes
+			Q(10.1.2.1): Is the guardian the petitioner?
+			A(Their guardian is the petitioner): Yes
+				Q(10.1.2.1.1):GOTO:notgranted
+			A(Their guardian is not the petitioner): No
+				Q(10.1.2.1.2):GOTO:11
+		A(They are not represented by a guardian): No
+			Q(10.1.2.2):GOTO:notgranted
+A(An heir or devisee is not incapacitated, a protected person, nor a minor):No
+	Q(10.2):GOTO:11
+A: What does "incapacitated" mean?
+	Q(10.3):It means they are impaired by reason of mental illness, mental deficiency, physical illness or disability, chronic use of drugs, chronic intoxication, or other cause (except minority) to the extent of lacking sufficient understanding or capacity to make or communicate responsible decisions
+	A: I understand
+		Q(10.3.1):GOTO:10
+	A[https://www.gilliganlawoffice.com/contact.html]: I would like to consult an attorney
+Q(11): Is the personal representative to be appointed a creditor of the estate?
+A(The personal rep is a creditor of the estate):Yes
+	Q(11.1):Is that the only reason they are interested in the estate?
+	A(This is the only reason they are interested):Yes
+		Q(11.1.1):GOTO:notgranted
+	A(This is not the only reason they are interested):No
+		Q(11.1.2):Is the personal representative to be appointed a Public Administrator?
+		A: What is a Public Administrator?
+			Q(11.1.2.1): A Public Administrator is a state employee who acts as executor of the will.
+			A: I understand.
+				Q(11.1.2.1.1):GOTO:11.1.2
+		A(The personal rep is a Public Administrator):Yes
+			Q(11.1.2.2):Is that the only reason they are interested in the estate?
+			A(This is the only reason they are interested):Yes
+				Q(11.1.2.2.1):GOTO:notgranted
+			A(This is not the only reason they are interested):No
+				Q(11.1.2.2.2):GOTO:12
+		A(The personal rep is not a Public Administrator):No
+			Q(11.1.2.3):GOTO:12
+A(The personal rep is not a creditor of the estate):No
+	Q(11.2):GOTO:11.1.2
+
+Q(12): Has a person receiving the property from the will died since <x>deadname</x>?
+A(An heir has died since): Yes
+	Q(12.1):Is their estate represented by a personal representative?
+	A(Their estate is represented by a personal rep): Yes
+		Q(12.1.1):GOTO:13
+	A(Their estate is not represented by a personal rep): No	
+		Q(12.1.2):GOTO:notgranted
+A(An heir has not died since):No
+	Q(12.2):GOTO:13
+
+Q(13): Is a supervised administration necessary?
+A(A supervised administration is necessary): Yes
+	Q(13.1):GOTO:notgranted
+A(A supervised administration is necessary): No
+	Q(13.2):GOTO:14
+
+Q(14):Does a judge have to sign an order or final decree for any reason?
+A(The judge must sign an order or final decree): Yes
+	Q(14.1):GOTO:notgranted
+A(The judge does not have to sign an order or final decree):No
+	Q(14.2):GOTO:granted
+
+Q(granted): An INFORMAL petition may be filed to appoint a personal representative.
+A(An informal petition may be filed): Great. What next?
+	Q(15.1):GOTO:next
+Q(notgranted): I am sorry. You are required to file a FORMAL petition to appoint a personal representative.
+A(A formal petition is required)[https://www.gilliganlawoffice.com/contact.html]:I'd like to consult an Attorney
+A(A formal petition is required): Thank you. I will figure the rest out on my own.
+A:[javascript:submit2('http://colarusso.pythonanywhere.com/2docx/','POST','','','','json_doc','_blank')]: Please give me a form documenting the information I have given so far to give to an attorney.
+
+
+Q(next):Please choose one of the following NEXT STEPS to learn more
+A:[javascript:submit2('http://colarusso.pythonanywhere.com/2docx/','POST','','','','json_doc','_blank')]: Please give me a form documenting the information I have given so far to give to an attorney.
+	Q(17.1):GOTO:next
+A: Fees
+	Q(17.2):The total fee required to file an informal petition is $390.00. The fee is broken down below. Click on the fee to learn more.:
+	A: Filing of the informal petition-$375.00
+		Q(17.2.1):This includes an initial appointment bond, notice forms, and the initial court-issued Letters of Authority. This does NOT include publication costs.
+		A:Please take me back to next steps.
+			Q(17.2.1.1):GOTO:next
+		A[https://www.gilliganlawoffice.com/contact.html]: Thank you. I'd like to consult an Attorney.
+	A: Assigning a docket number-$15.00
+		Q(17.2.2):Every case in court being seen before a judge or clerk needs a docket number. It is used to keep the court cases organized. 
+		A:Please take me back to next steps.
+			Q(17.2.2.1):GOTO:next
+		A[https://www.gilliganlawoffice.com/contact.html]: Thank you. I'd like to consult an Attorney.
+A: Checklist of necessary items
+	Q(17.3): Did the decedent die with a will?
+	A:Yes
+		Q(rf):Below are the required forms. Some of these you MAY need. The rest are required. Click to see the form.
+		A[https://www.mass.gov/doc/petition-for-informal-probate-of-will-andor-appointment-of-personal-representative-mpc-150/download]: Petition for Informal Probate of Will/Appointment of Personal Representative 
+			Q(17.3.1.1):GOTO:rf	
+		A[https://www.mass.gov/doc/surviving-spouse-children-heirs-at-law-mpc-162/download]: Surviving Spouse, Children, Heirs at Law 
+			Q(17.3.1.2):GOTO:rf
+		A[https://www.mass.gov/doc/devisees-mpc-163/download]: Devisees 
+		A: The Original Will
+			Q(17.3.1.4):GOTO:rf
+		A: Certified copy of Death Certificate
+			Q(17.3.1.5):GOTO:rf
+		A:Continued on to next page...
+			
+			Q(cont2): Here is the second page from the list of the required forms.
+			A[https://www.mass.gov/doc/notice-of-informal-probate-and-return-of-service-mpc-550/download]: Notice of informal Probate of will and/or Appointment of Personal Representative 
+				Q(17.3.1.6.1):GOTO:cont2
+			A[https://www.mass.gov/doc/order-for-informal-probate-of-will-andor-appointment-of-personal-representative-mpc-750/download]: Order of Informal Probate of Will and/or Appointment 
+				Q(17.3.1.6.2):GOTO:cont2
+			A[https://www.mass.gov/doc/bond-mpc-801/download]: Bond * only if you are seeking to appoint a personal representative. 
+				Q(17.3.1.6.3):GOTO:cont2
+			A[http://www.ma-divorce-center.com/Forms_Clean/Misc/mpc470-military-affidavit-fill.pdf]: Military Affidavit 
+				Q(17.3.1.6.4):GOTO:cont2
+			A:Continued on to next page...
+
+				Q(cont3): Here is the third page from the list of required forms.
+
+				A: Authenticated Copy of Will and Appointment
+
+					Q(17.2.1.10): You only need this if <x>deadname</x> is passing on real estate that is in a different state.
+
+				A[https://www.mass.gov/doc/assent-and-waiver-of-noticerenunciationnominationwaiver-of-sureties-mpc-455/download]:**MAY Need**Assent and Waiver of Notice/ Renunciation/Nomination/Waiver or Sureties 
+					Q(17.3.1.6.5.2):GOTO:cont3
+				A[https://www.mass.gov/doc/cause-of-death-affidavit-mpc-475/download]:**MAY Need**Affidavit as to cause of death 
+					Q(17.3.1.6.5.3):GOTO:cont3
+				A[https://www.mass.gov/doc/affidavit-of-domicile-mpc-485/download]:**May Need**Affidavit as to domicile 
+					Q(17.3.1.6.5.4):GOTO:cont3
+				A[https://www.mass.gov/doc/general-information-regarding-guardianship-and-conservatorship-mpc-190/download]:**May Need** Proof of Guardianship/Conservatorship
+					Q(17.3.1.6.5.5):GOTO:cont3
+	A:No
+		Q(17.3.2): Below are the required forms. Some of these you MAY need. The rest are required. Click to see the form.
+		A[https://www.mass.gov/doc/petition-for-informal-probate-of-will-andor-appointment-of-personal-representative-mpc-150/download]: Petition for Informal Probate of Will/Appointment of Personal Representative 
+			Q(17.3.2.1):GOTO:17.2.2
+		A[https://www.mass.gov/doc/surviving-spouse-children-heirs-at-law-mpc-162/download]: Surviving Spouse, Children, Heirs at Law 
+			Q(17.3.2.2):GOTO:17.2.2
+		A: Certified copy of Death Certificate
+			Q(17.3.2.3): You must get a certified copy of the death certificate
+		
+		A[https://www.mass.gov/doc/notice-of-informal-probate-and-return-of-service-mpc-550/download]: Notice of informal Probate of will and/or Appointment of Personal Representative 
+			Q(17.3.2.4):GOTO:17.2.2
+		A[https://www.mass.gov/doc/order-for-informal-probate-of-will-andor-appointment-of-personal-representative-mpc-750/download]: Order of Informal Probate of Will and/or Appointment 
+			Q(17.3.2.5):GOTO:17.2.2
+		A[https://www.mass.gov/doc/bond-mpc-801/download]: Bond 
+			Q(17.3.2.6):GOTO:17.2.2
+		A[http://www.ma-divorce-center.com/Forms_Clean/Misc/mpc470-military-affidavit-fill.pdf]: Military Affidavit 
+			Q(17.3.2.7):GOTO:17.2.2
+		A[https://www.mass.gov/doc/assent-and-waiver-of-noticerenunciationnominationwaiver-of-sureties-mpc-455/download]:**MAY Need**Assent and Waiver of Notice/ Renunciation/Nomination/Waiver or Sureties 
+			Q(17.3.2.8):GOTO:17.2.2
+		A[https://www.mass.gov/doc/cause-of-death-affidavit-mpc-475/download]:**MAY Need**Affidavit as to cause of death 
+			Q(17.3.2.9):GOTO:17.2.2
+		A[https://www.mass.gov/doc/affidavit-of-domicile-mpc-485/download]:**May Need**Affidavit as to domicile 
+			Q(17.2.2.10):GOTO:17.2.2
+		A[https://www.mass.gov/doc/general-information-regarding-guardianship-and-conservatorship-mpc-190/download]:**May Need** Proof of Guardianship/Conservatorship
+			
+		A: I want to learn about a new topic.
+			Q(17.2.2.12):GOTO:next
+	A: I want to learn about a new topic.
+		Q(17.3.3):GOTO:next
+
+A: I am ready to file my case
+	Q(17.4): Great! You must go to the court clerk's office and provide the clerk with a packet complete with all of the required forms and pay the $390 filing fee. 
+	A: Okay. I will do that.
+		Q(17.4.1):GOTO:final
+	A:Where do I file the packet?
+		Q(17.4.2): You must file the packet in the county Probate and Family Court where the <x>deadname</x> was domiciled at the time of death OR If <x>deadname</x> was domiciled outside of Massachusetts, yo must file in any county where his or her property was located at their time of death.
+		A: Okay. I am all set!
+			Q(17.4.2.1):GOTO:final
+		A: What does "Domiciled" mean?
+			Q(17.4.2.2): It is the place where a person has his/her permanent principal home to which he/she returns or intends to return.
+			A: That makes sense. I am ready to file
+				Q(17.4.2.2.1):GOTO:final
+A[https://www.gilliganlawoffice.com/contact.html]: I would like to consult an Attorney.
+
+Q(final): Fantastic. Please use the below link as an additional resource for help.
+A[http://www.mass.gov/courts/docs/courts-and-judges/courts/probate-and-family-court/mupc-procedural-guide.pdf]:Guide to Estate Administration
+A[https://www.gilliganlawoffice.com/contact.html]: Make an appointment with an Attorney.
