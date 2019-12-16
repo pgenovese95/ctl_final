@@ -3,7 +3,9 @@ I created a bot that will help Lisa Gilligan not only increase the amount of pot
 but also help those potential clients to be informed. The bot will walk clients through a complex form
 that normally Lisa GIlligan would do herself and educate them along the way. This way, the potential 
 clients will be able to move through Lisa Gilligan's intake process faster, and save her from filling out, what she 
-calls "that damn form."  Since QnA has a data limit on what it can create a link for, LG_Prime can be found at: *******insert link
+calls "that damn form."  Since QnA has a data limit on what it can create a link for, LG_Prime html 
+can be found at:https://pgenovese95.github.io/ctl_final/LG_Prime_html and LG_Prime text can 
+be found at: https://pgenovese95.github.io/ctl_final/LG_Prime_txt
 
 ##Framing
 Lisa Gilligan runs her own solo practice out of Reading Massachusetts. She has a husband, two children, and two brand new
@@ -39,22 +41,24 @@ and have the document popup rather than have it lead you to a follow up question
 was none other than Lisa Gilligan's son, Larry. Larry is a Liquor Merchandiser. Like the previous testers, he has no legal expierence. 
 Unlike the previous two, Larry did have a rough understanding of what my goal was for the bot. Larry was able to give a valusable 
 suggestion; the user should have an option to consult an attorney at multiple stages of LG_Prime.
-All  test user feedback can be found at:******
-Mrs. Gilligan's feedback can be found at :*********
+All  test user feedback can be found at:https://pgenovese95.github.io/ctl_final/user_feedback
+Mrs. Gilligan's feedback can be found at :https://pgenovese95.github.io/ctl_final/client_feedback
 
 
 ###Refinement
-Each time the bot was tested I had the users fill out a standard form I created. It can be found at: *****insert link****. I would 
-review the form soon after it was done and clarify certain questions they had or suggestions they offered. Then I would implement 
-the changes they suggested thatalso would help reach the goal. I started with a simple bot. Then I added javascript and additional 
-resources. Finally I created a function that would allow the user to get documentation of the important information LG_Prime gathered.
-After three rounds of user testing and over 70 mark up file variations, LG_Prime is ready for the client, Lisa Gilligan.
+Each time the bot was tested I had the users fill out a standard form I created that can be found in the ctl final repo 
+under "Feedback Form" I would review the form soon after it was done and clarify certain questions they had or suggestions they offered. 
+Then I would implement the changes they suggested thatalso would help reach the goal. I started with a simple bot. Then I 
+added javascript and additional resources. Finally I created a function that would allow the user to get documentation of the 
+important information LG_Prime gathered. After three rounds of user testing and over 70 mark up file variations, LG_Prime is one fixed
+bug away from being perfect for Lisa Gilligan.
 
 
 ##Intro Pitch
-The PowerPoint used for my intro pitch can be found at:
-For my pitch I focused on telling the story of the client. This kept everyone's fous on the "why" rather than the "what" which is the most important.
-**********
+The PowerPoint used for my intro pitch can be found at:************
+For my pitch I focused on telling the story of the client. This kept everyone's fous on the "why" rather than the "what" 
+which is the most important.
+
 
 ##Complexity/Robustness
 This an extremely robust QnA, which has multiple choice, fill in the balnks, reference call backs, embedded links, 
