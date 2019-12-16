@@ -39,6 +39,8 @@ and have the document popup rather than have it lead you to a follow up question
 was none other than Lisa Gilligan's son, Larry. Larry is a Liquor Merchandiser. Like the previous testers, he has no legal expierence. 
 Unlike the previous two, Larry did have a rough understanding of what my goal was for the bot. Larry was able to give a valusable 
 suggestion; the user should have an option to consult an attorney at multiple stages of LG_Prime.
+All  test user feedback can be found at:******
+Mrs. Gilligan's feedback can be found at :*********
 
 
 ###Refinement
@@ -80,7 +82,9 @@ process. My partner would easily be able to dive in and change language once get
 LG_Prime-gathered information in a digestable way to help her implement the information seemlessly into her representation.
 
 ##Real World Viability
-This QnA is ready for the real world as-is. Lisa Gilligan and her potential clients could use this bot tomorrow.
+This QnA is very close to being ready. The QnA itself works and will give clients valuable resources and save Mrs. Gilligan time and get 
+more clients, but the document that is created at the end for the user has a minor bug that inputs an answer twice near the bottom. As of
+now, this bug has not been resolved. It is the only thing holding this back from being client ready.
 
 ##Sustainability
 This bot will be only as good as its latest update. Unfortunately, Probate laws, procedures, and forms are subject to change. Luckily,
