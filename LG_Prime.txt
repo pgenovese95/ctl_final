@@ -1,6 +1,6 @@
 Before: <input type="hidden" name="name" value="final_doc"/>
 <input type="hidden" name="docx_uri" value="https://pgenovese95.github.io/ctl_final/final_doc.docx"/>
-Title:LG Prime
+Title:LG Prime**CLASS PROJECT NOT FOR LEGAL USE/ADVICE**
 Author:Patrick Genovese
 Description:This is a class project. You should not rely on it as a source of legal information. It is likely incomplete.
 
